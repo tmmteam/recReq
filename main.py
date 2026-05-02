@@ -15,14 +15,14 @@ logging.getLogger("pyrogram").setLevel(logging.ERROR)
 # --- CONFIG ---
 API_ID = 20247726
 API_HASH = "2a2654fa036e1ec6b98216d85d9fa38c"
-BOT_TOKEN = "8633171716:AAFZ6tPmfjoDeaVZvkHtygNyPBsVVO77wss"
+BOT_TOKEN = "8608127367:AAGvnupGG9JphUy6_Y_mWmO7pbgnSN6jm-w"
 OWNER_ID = 1161241513  # 🔥 APNA TELEGRAM USER ID DALO
 
 # --- SESSION CLEAN ---
-if os.path.exists("MasterBot.session"):
-    os.remove("MasterBot.session")
+#if os.path.exists("MasterBot.session"):
+   # os.remove("MasterBot.session")
 
-bot = Client("MasterBot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+bot = Client(":momos", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 # --- DATABASE ---
 db = sqlite3.connect("accounts.db", check_same_thread=False)
